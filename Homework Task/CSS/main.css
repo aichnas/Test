@@ -1,0 +1,124 @@
+nav {
+    background-color: #57877e;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+   
+    
+}
+
+li {
+    padding-right: 20px;
+    color: white
+}
+
+
+main {
+     
+    margin-top: 30px;
+}
+
+header {
+    color: white;
+    height: 400px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page-2 {
+    background-image: url("../Images/Page\ 2\ Header.jpg");
+}
+
+h1 {
+    color: white;
+    font-size: 40px
+}
+
+header p {
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: center;
+}
+
+/* Favourite things subheading */
+h2 {
+    text-align: center;
+    font-family: "Delicious Handrawn", sans-serif;
+    font-size: 35px;
+}
+
+.volunteering {
+    padding-left: 300px;
+    padding-right: 300px;
+    text-align: center;
+}
+
+/* Cats! Subheading */
+h3 {
+text-align: center;
+padding-top: 20px;
+}
+
+/*Cat images */
+.cats {
+    display: flex;
+    justify-content: center;
+    
+}
+
+img {
+    padding: 20px 5px
+    
+}
+
+.lists {
+    padding-left: 500px;
+    padding-right: 500px;    
+}
+
+/* Page 2 */
+.video {
+    display: flex;
+    justify-content:space-evenly;
+    padding: 20px;
+}
+
+/* Page 2 table */
+table tbody tr:nth-child(odd) {
+    background-color: black;
+    color: white;
+}
+
+td {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+table {
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    color: white;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
